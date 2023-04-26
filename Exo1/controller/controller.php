@@ -4,8 +4,6 @@
 // path : controller/controller.php
 //--
 
-
-
 /**
  * Display numberq
  * @param int $cap is the range

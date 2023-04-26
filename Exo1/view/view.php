@@ -3,11 +3,12 @@
 // View
 // Path: view\view.php
 
+
 /**
  * insert styling for viewArray
  * @return void
  */
-function style():void {
+function view_style():void {
     echo
     "<style>
         table {
