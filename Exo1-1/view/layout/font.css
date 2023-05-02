@@ -1,0 +1,35 @@
+/**
+  * Fonts
+  * https://fonts.google.com/specimen/Roboto+Slab
+  */
+
+  @import url("https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab:wght@300;400&display=swap");
+  .title {
+    font-family: "Roboto Slab", serif;
+    color: #111111;
+    font-size: 36px;
+    text-align: center;
+    font-weight: 300;
+  }
+  .subtitle {
+    font-family: "Roboto", sans-serif;
+    color: #111111;
+    font-size: 16px;
+    text-align: center;
+  }
+  .button-font {
+    font-family: "Roboto", sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+  }
+  .footer-font {
+    font-family: "Roboto", sans-serif;
+    color: #ffffff;
+    font-size: 12.8px;
+  }
+  .footer-link-font {
+    font-family: "Roboto", sans-serif;
+    color: #fed85f;
+    font-size: 12.8px;
+    text-decoration: underline;
+  }

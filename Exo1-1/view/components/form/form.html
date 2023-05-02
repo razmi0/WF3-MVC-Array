@@ -1,0 +1,33 @@
+<form method="POST" action="controller/form/formulaire.php" class="px-sm-4" novalidate>
+    <!-- Firstname -->
+    <div class="form-group mt-3">
+      <input type="text" name="firstname" id="firstname" class="form-control" required />
+      <label class="mb-1 info-text-font form-title-input" for="firstname">Firstname</label>
+    </div>
+    <!-- password -->
+    <div class="form-group mt-3">
+      <input type="password" name="password" id="password" class="form-control" required />
+      <label class="mb-1 info-text-font form-title-input" for="password">Password
+      </label>
+    </div>
+
+    <!-- Email -->
+    <div class="form-group mt-3">
+      <input type="email" name="email" id="email" class="form-control" required />
+      <label class="mb-1 info-text-font form-title-input" for="email">E-mail</label>
+    </div>
+    <!-- Message -->
+    <div class="form-group">
+      <textarea name="message" class="form-control" placeholder="Leave your comment here" id="textarea" style="height: 100px"
+        maxlength="300" minlength="5"></textarea>
+      <div id="textarea-counter-anchor" class="d-flex justify-content-end"></div>
+    </div>
+    <div class="d-flex justify-content-end">
+      <button type="submit">
+        <span>Send</span>
+      </button>
+      <button>
+        <span><a href="index.php" >Accueil</a></span>
+      </button>
+    </div>
+</form>

@@ -1,0 +1,238 @@
+/**
+        *Media queries
+        */
+
+/**
+*Mobile
+*/
+@media screen and (min-width: 576px) {
+    .img-format {
+      width: 540px;
+      object-fit: cover;
+    }
+    .img1 {
+      grid-area: img1;
+      height: 624px;
+    }
+    .img2 {
+      grid-area: img2;
+      height: 624px;
+    }
+    .img3 {
+      grid-area: img3;
+      height: 409px;
+    }
+    .img4 {
+      grid-area: img4;
+      height: 397px;
+    }
+    .img5 {
+      grid-area: img5;
+      height: 409px;
+    }
+    .img6 {
+      grid-area: img6;
+      height: 623px;
+    }
+    .img7 {
+      grid-area: img7;
+      height: 623px;
+    }
+  }
+  /**
+  *Lansdscape mobile
+  */
+  @media screen and (orientation: landscape) and (min-height: 576px) {
+    .img-format {
+      width: 540px;
+      object-fit: cover;
+    }
+    .img1 {
+      grid-area: img1;
+      height: 624px;
+    }
+    .img2 {
+      grid-area: img2;
+      height: 624px;
+    }
+    .img3 {
+      grid-area: img3;
+      height: 409px;
+    }
+    .img4 {
+      grid-area: img4;
+      height: 397px;
+    }
+    .img5 {
+      grid-area: img5;
+      height: 409px;
+    }
+    .img6 {
+      grid-area: img6;
+      height: 623px;
+    }
+    .img7 {
+      grid-area: img7;
+      height: 623px;
+    }
+  }
+  /**
+  *Tablet
+  */
+  @media screen and (min-width: 768px) {
+    .container-grid {
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(4, auto);
+      grid-template-areas:
+        "img1 subgrid"
+        "img2 subgrid"
+        "img6 img6"
+        "img7 img7";
+    }
+    .subgrid {
+      display: grid;
+      margin-left: 20px;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(3, auto);
+      gap: 30px 0px;
+      grid-template-areas:
+        "img3"
+        "img4"
+        "img5";
+      grid-area: subgrid;
+    }
+    .img-format {
+      width: 344px;
+      object-fit: cover;
+    }
+    .img1 {
+      grid-area: img1;
+      height: 405px;
+    }
+    .img2 {
+      grid-area: img2;
+      height: 405px;
+    }
+    .img3 {
+      grid-area: img3;
+      height: 262px;
+    }
+    .img4 {
+      grid-area: img4;
+      height: 254px;
+    }
+    .img5 {
+      grid-area: img5;
+      height: 262px;
+    }
+    .img6 {
+      grid-area: img6;
+      height: 841px;
+      width: 720px;
+    }
+    .img7 {
+      grid-area: img7;
+      height: 841px;
+      width: 720px;
+    }
+  }
+  /**
+  *Desktop
+  */
+  @media screen and (min-width: 992px) {
+    .container-grid {
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(2, auto);
+      gap: 30px 30px;
+      grid-template-areas:
+        "img1 subgrid img6"
+        "img2 subgrid img7";
+    }
+    .subgrid {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(3, auto);
+      gap: 30px 30px;
+      margin-left: 0;
+      grid-template-areas:
+        "img3"
+        "img4"
+        "img5";
+      grid-area: subgrid;
+    }
+    .img-format {
+      width: 292px;
+      object-fit: cover;
+    }
+    .img1 {
+      grid-area: img1;
+      height: 348px;
+    }
+    .img2 {
+      grid-area: img2;
+      height: 348px;
+    }
+    .img3 {
+      grid-area: img3;
+      height: 224px;
+    }
+    .img4 {
+      grid-area: img4;
+      height: 217px;
+    }
+    .img5 {
+      grid-area: img5;
+      height: 224px;
+    }
+    .img6 {
+      grid-area: img6;
+      height: 348px;
+    }
+    .img7 {
+      grid-area: img7;
+      height: 348px;
+    }
+  }
+  /**
+  *Large desktop
+  */
+  @media screen and (min-width: 1200px) {
+    .container-grid {
+      gap: 30px 30px;
+    }
+    .subgrid {
+      gap: 30px 0px;
+    }
+    .img-format {
+      width: 359px;
+      object-fit: cover;
+    }
+    .img1 {
+      grid-area: img1;
+      height: 429px;
+    }
+    .img2 {
+      grid-area: img2;
+      height: 429px;
+    }
+    .img3 {
+      grid-area: img3;
+      height: 278px;
+    }
+    .img4 {
+      grid-area: img4;
+      height: 270px;
+    }
+    .img5 {
+      grid-area: img5;
+      height: 278px;
+    }
+    .img6 {
+      grid-area: img6;
+      height: 429px;
+    }
+    .img7 {
+      grid-area: img7;
+      height: 429px;
+    }
+  }

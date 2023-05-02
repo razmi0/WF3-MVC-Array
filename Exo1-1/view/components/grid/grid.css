@@ -1,0 +1,70 @@
+/** 
+*Grid CSS 
+**/
+
+.container-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(7, auto);
+    gap: 30px 0px;
+    justify-items: center;
+    align-items: center;
+    grid-template-areas:
+      "img1"
+      "img2"
+      "subgrid"
+      "subgrid"
+      "subgrid"
+      "img6"
+      "img7";
+  }
+  .subgrid{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, auto);
+    gap: 30px 0px;
+    grid-template-areas:
+      "img3"
+      "img4"
+      "img5";
+    grid-area: subgrid;
+  }
+  .img-format {
+    width: 340px;
+    object-fit: cover;
+  }
+  
+  .offset-position-82 {
+    object-position: 50% 82%;
+  }
+  .offset-position-100 {
+    object-position: 50% 100%;
+  }
+  .img1 {
+    grid-area: img1;
+    height: 381px;
+  }
+  .img2 {
+    grid-area: img2;
+    height: 381px;
+  }
+  .img3 {
+    grid-area: img3;
+    height: 246px;
+  }
+  .img4 {
+    grid-area: img4;
+    height: 238px;
+  }
+  .img5 {
+    grid-area: img5;
+    height: 246px;
+  }
+  .img6 {
+    grid-area: img6;
+    height: 380px;
+  }
+  .img7 {
+    grid-area: img7;
+    height: 380px;
+  }

@@ -1,0 +1,12 @@
+{
+    "name": "app/exo1-1",
+    "authors": [
+        {
+            "name": "razmi0",
+            "email": "121302828+razmi0@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "elementaryframework/fire-fs": "^1.2"
+    }
+}

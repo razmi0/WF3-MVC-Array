@@ -1,0 +1,13 @@
+
+
+@import "../../layout/normalize.css";
+@import "../../layout/font.css";
+/* @import "../../components/header/header.css"; */
+/* @import "../../components/footer/footer.css"; */
+@import "../../components/form/form.css";
+@import "../../components/button/button.css";
+
+button {
+    margin-left : 20px;
+}
+
