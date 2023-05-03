@@ -1,0 +1,53 @@
+<!-- Nous prévoyons 2 champs dans notre formulaire : pseudo & message. -->
+
+<body>
+  <div class="container mt-5">
+    <div class="row">
+      <div
+        class="col-md-6 offset-md-3 col-sm-8 offset-sm-2 me-5 container-form"
+      >
+        <h1
+          class="mb-5 d-flex justify-content-evenly info-title-font form-title"
+        >
+          Communicate below <span class="title-emoji-anim">👇</span>
+        </h1>
+        <form method="post" action="" class="px-sm-4">
+          <div class="form-group mt-3">
+
+            <input
+              type="text"
+              id="pseudo"
+              name="pseudo"
+              class="form-control"
+              pattern="[a-zA-Z0-9.-_]+"
+              title="caractère autorisés : a-zA-Z0-9.-_"
+              required
+            />
+            <label for="pseudo" class="mb-1 info-text-font form-title-input"
+            >Pseudo</label
+          >
+            
+          </div>
+          <div class="form-group">
+            <textarea
+              style="height: 100px"
+              class="form-control"
+              placeholder="Leave your comment here"
+              id="message"
+              name="message"
+              cols="50"
+              rows="7"
+              required
+            ></textarea
+            >
+          </div>
+          <div class="d-flex justify-content-end">
+            <button type="submit">
+              <span>Send</span>
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>

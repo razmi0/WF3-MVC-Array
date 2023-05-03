@@ -7,4 +7,9 @@ include_once("controller/controller.php");
 
 
 $p = session_start();
-echo $p;
+$_SESSION['user'] = "admin";
+$_SESSION['pass'] = "admin";
+// print_r($_SESSION['user']);
+// print_r($_SESSION['pass']);
+
+
